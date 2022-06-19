@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Bonik-Store/static/css/main.69bea72b.css",
+    "main.js": "/Bonik-Store/static/js/main.196349d2.js",
+    "static/media/imagen2.jpg": "/Bonik-Store/static/media/imagen2.bacaa0866f4ba9c79b57.jpg",
+    "static/media/image1.png": "/Bonik-Store/static/media/image1.d184a76c826f0b65de1a.png",
+    "static/media/shops-8.png": "/Bonik-Store/static/media/shops-8.c3527800768764ec43f9.png",
+    "static/media/discount-2.png": "/Bonik-Store/static/media/discount-2.bfb26a60202717badf6b.png",
+    "static/media/shops-4.png": "/Bonik-Store/static/media/shops-4.ed7a862f1c87d81d7600.png",
+    "static/media/shops-5.png": "/Bonik-Store/static/media/shops-5.cd913aecfed365a9bf0c.png",
+    "static/media/shops-6.png": "/Bonik-Store/static/media/shops-6.cd913aecfed365a9bf0c.png",
+    "static/media/shops-3.png": "/Bonik-Store/static/media/shops-3.6f7f63bc2510de9f8ca0.png",
+    "static/media/shops-1.png": "/Bonik-Store/static/media/shops-1.0c64d828cdf97d9e13cc.png",
+    "static/media/discount-3.png": "/Bonik-Store/static/media/discount-3.210d7027b285de8850fb.png",
+    "static/media/discount-1.png": "/Bonik-Store/static/media/discount-1.ec5915e86992c68a7677.png",
+    "static/media/shops-10.png": "/Bonik-Store/static/media/shops-10.e1f82cb97457fc6e02df.png",
+    "static/media/logo.svg": "/Bonik-Store/static/media/logo.6172109437bb6cb48eb8dc1f65c9964c.svg",
+    "static/media/slick.svg": "/Bonik-Store/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Bonik-Store/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Bonik-Store/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Bonik-Store/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Bonik-Store/index.html",
+    "main.69bea72b.css.map": "/Bonik-Store/static/css/main.69bea72b.css.map",
+    "main.196349d2.js.map": "/Bonik-Store/static/js/main.196349d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69bea72b.css",
+    "static/js/main.196349d2.js"
+  ]
+}
