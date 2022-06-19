@@ -1,0 +1,40 @@
+.cajaSlider{
+    margin-top: 20px;
+    margin: auto;
+}
+.cajaSlider > button{
+    opacity: 0;
+    height: 100%;
+    width: 5vw;
+
+}
+.cajaSlider div{
+    width: 100%;
+    height: 420px;
+}
+.cajaSlider div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media only screen and (max-width: 768px){
+    .cajaSlider{
+        width: 100%;
+        margin: auto;
+    }
+} 
+@media only screen and (max-width: 600px){
+    .cajaSlider{
+        width: 340px;
+        height: 200px;
+    }
+    .cajaSlider .caja-imagen{
+        width: 100%;
+        height: 300px;
+    }
+    .cajaSlider .caja-imagen img{
+        width: 100%;
+        height: 60%;
+        object-fit: cover;
+    }
+}

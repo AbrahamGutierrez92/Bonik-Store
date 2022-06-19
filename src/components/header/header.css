@@ -1,0 +1,71 @@
+.header{
+    width: 100%;
+    background-color: #0f3460;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ayuda-header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px 12px;
+    /*padding: 0 40px;*/
+}
+.ayuda-header > div{
+  display: flex;
+  align-items: center;
+  margin: 15px;
+  color: white;
+  font-weight: bold;
+}
+
+.ayuda-header .idiomas, .signoCambio{
+  cursor: pointer;
+}
+
+.ayuda-header .idiomas:hover{
+    color: #e5a0a0;
+}
+
+.ayuda-header .signoCambio:hover{
+    color: #e5a0a0;
+}
+
+.ayuda-header > div i{
+    padding-right: 5px;
+}
+
+@media only screen and (max-width:992px){
+    .header .ayuda-header{
+        width: 100%;
+    }
+    .header .ayuda-header .del-Header{
+        width: 150px;
+    }
+    .header .ayuda-header .del-Header p{
+       font-size: 12px;
+    }
+
+    .header .ayuda-header div{
+        width: 100%;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .header .ayuda-header{
+        width: 100%;
+    }
+    .header .ayuda-header .del-Header{
+        width: 120px;
+    }
+    
+}
+
+@media only screen and (max-width: 600px){
+    .header {
+       display: none;
+    }
+}

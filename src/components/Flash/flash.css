@@ -1,0 +1,87 @@
+.container-flash{
+    width: 100%;
+}
+.container-flash h1{
+    font-size: 27px;
+    font-weight: bold;
+    padding: 8px;
+    padding-left: 10px;
+}
+.flash{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.caja-flash{
+    background-color: white;    
+    gap: 12px 12px;
+    margin-bottom: 12px;
+    box-shadow: 2px 2px 5px #999;
+    border-radius: 5px;
+    position: relative;
+}
+.caja-flash:hover{
+    background-color: #e7e2e2;
+}
+.descuento-flash{
+    width: 70px;
+    position: absolute;
+    top: 0;
+    margin-top: 8px;
+    left: 15px;
+    padding: 5px 15;
+    background-color: #d64343;
+    border-radius: 30px;
+}
+.descuento-flash p{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+.imagen-flash-caja{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.imagen-flash-caja img{
+    width: 100%;
+}
+.descripcion-flash-caja{
+    padding: 10px;
+}
+.estrella-flash-caja i{
+    color: #ffc400;
+    padding-left: 5px;
+    padding: 0;
+}
+.descripcion-flash-caja strong{
+    padding-top: 5px;
+    color: #d64343;
+}
+.descripcion-flash-caja .boton-flash-caja button{
+    position: relative;
+    left: 220px;
+    padding: 0 7px;
+    background-color: #f5f3f3;
+    border: 0.5px solid #888;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.descripcion-flash-caja .boton-flash-caja button:hover{
+    background-color: #e9d7d7;
+}
+.descripcion-flash-caja .boton-flash-caja button strong{
+    font-size: 25px;
+}
+@media only screen and (max-width: 600px){
+ .caja-flash{
+    width: 100%;
+    margin-bottom: 15px;
+ }
+}

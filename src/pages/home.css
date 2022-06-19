@@ -1,0 +1,15 @@
+.slider-Principal{
+    width: 95%;
+    margin: auto;
+}
+.home-flash,
+.top-categories,
+.arrivals-home,
+.discounts-home,
+.Mobile-phone,
+.banner-home,
+.beneficios-home{
+    width: 100%;
+    margin-top: 60px;
+    padding: 20px;
+}

@@ -1,0 +1,124 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  box-shadow: 2px 2px 5px #999;
+  z-index: 1;
+  background-color: white;
+}
+.search-Navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.search-Navbar .logo {
+  align-items: flex-start;
+}
+.buscador {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  border-radius: 15px;
+  border: 2px solid #b8b4b4;
+}
+.buscador div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  display: flex;
+}
+.buscador div i {
+  padding-right: 5px;
+  color: #b8b4b4;
+}
+.buscador div input {
+  width: 100%;
+  border: none;
+  height: 28px;
+  outline: none;
+  font-weight: bold;
+}
+.buscador div button {
+  border: none;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+.userEstado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.userEstado i {
+  background-color: #d64343;
+  color: white;
+  margin: 10px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 100%;
+}
+.nav {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav div {
+  width: 18%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav div select {
+  width: 100%;
+  padding: 6px;
+  border-radius: 10px;
+  background-color: #f5ecec;
+  outline: none;
+  border: none;
+  font-weight: bold;
+}
+.nav div select option {
+  font-weight: bold;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*Menu*/
+.nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav ul li {
+  margin-right: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.nav ul li:hover{
+    color: #d64343;
+}
+@media only screen and (max-width: 600px){
+  .buscador{
+    display: none;
+  }
+  .nav div {
+    padding: 15px;
+    width: 100%;
+  }
+  .nav div select{
+    width: 100%;
+  }
+  .nav ul{
+    display: none;
+  }
+}

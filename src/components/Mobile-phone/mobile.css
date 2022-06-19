@@ -1,0 +1,150 @@
+.mobile{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.lista-mobile{
+    width: 50%;
+    height: 70%;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 2px 2px 8px #999;
+}
+.descripcion-mobile{
+    padding: 5px;
+}
+.lista-mobile
+.box-lista-mobile{
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.lista-mobile
+.box-lista-mobile
+ div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+    margin: 15px;
+    background-color: #f4fafa;
+    cursor: pointer;
+ }
+ .lista-mobile
+.box-lista-mobile
+ div i{
+    padding-right: 10px;
+ }
+ .fa-vimeo-v{
+    color: #160e42;
+ }
+ .fa-umbraco{
+    color: #48ec87;
+ }
+ .lista-mobile
+.box-lista-mobile
+ div h4{
+    text-align: center;
+ }
+/*mobile-productos*/
+.descuento-flash-mobile{
+    width: 100%;
+}
+.container-flash-mobile h1{
+    font-size: 27px;
+    font-weight: bold;
+    padding: 8px;
+    padding-left: 10px;
+}
+.flash{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.caja-flash-mobile{
+    background-color: white;
+    padding: 5px;
+    box-shadow: 2px 2px 5px #999;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 15px;
+}
+.caja-flash-mobile:hover{
+    background-color: #e7e2e2;
+}
+.descuento-flash-mobile{
+    width: 70px;
+    position: absolute;
+    top: 0;
+    margin-top: 10px;
+    left: 15px;
+    padding: 5px 15;
+    background-color: #d64343;
+    border-radius: 30px;
+}
+.descuento-flash-mobile p{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+.imagen-flash-caja-mobile{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.imagen-flash-caja-mobile img{
+    width: 100%;
+}
+.descripcion-flash-caja-mobile{
+    padding: 10px;
+}
+.estrella-flash-caja-mobile i{
+    color: #ffc400;
+    padding-left: 5px;
+    padding: 0;
+}
+.descripcion-flash-caja strong{
+    padding-top: 5px;
+    color: #d64343;
+}
+.descripcion-flash-caja-mobile .boton-flash-caja-mobile button{
+    position: relative;
+    left: 220px;
+    padding: 0 7px;
+    background-color: #f5f3f3;
+    border: 0.5px solid #888;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.descripcion-flash-caja-mobile .boton-flash-caja button:hover{
+    background-color: #e9d7d7;
+}
+.descripcion-flash-caja-mobile .boton-flash-caja-mobile button strong{
+    font-size: 25px;
+}
+@media only screen and (max-width: 768px){
+    .mobile{
+        flex-wrap:wrap;
+    }
+    .lista-mobile{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .mobile{
+        flex-wrap:wrap;
+    }
+    .lista-mobile{
+        width: 100%;
+    }
+}
